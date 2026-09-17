@@ -1,0 +1,57 @@
+backend:
+  name: github
+  repo: anselbarclay-website/AB-Media
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "site"
+    label: "AB Media Website"
+    files:
+      - name: "content"
+        label: "Website Content"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - label: "Homepage"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Main Title", name: "headline", widget: "string" }
+              - { label: "Tagline", name: "tagline", widget: "text" }
+              - { label: "Highlight Reel (small MP4 upload)", name: "highlight_reel", widget: "file", required: false, media_folder: "/videos", public_folder: "/videos" }
+          - label: "Homepage Cover Images"
+            name: "covers"
+            widget: "object"
+            fields:
+              - { label: "Fashion Cover", name: "fashion", widget: "image", required: false }
+              - { label: "Property Cover", name: "property", widget: "image", required: false }
+              - { label: "Music Cover", name: "music", widget: "image", required: false }
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Instagram URL", name: "instagram", widget: "string", required: false }
+          - label: "Fashion Gallery"
+            name: "fashion"
+            widget: "list"
+            summary: "{{fields.type}} — {{fields.caption}}"
+            fields: &portfolio_fields
+              - { label: "Type", name: "type", widget: "select", options: ["Photo", "Video"], default: "Photo" }
+              - { label: "Photo", name: "image", widget: "image", required: false }
+              - { label: "Video File (small MP4 only)", name: "video_file", widget: "file", required: false, media_folder: "/videos", public_folder: "/videos" }
+              - { label: "Video URL (YouTube, Vimeo, or direct MP4)", name: "video_url", widget: "string", required: false, hint: "Recommended for large/high-quality videos. Paste a YouTube or Vimeo share link, or a direct .mp4 URL." }
+              - { label: "Caption", name: "caption", widget: "string", required: false }
+          - label: "Property Gallery"
+            name: "property"
+            widget: "list"
+            summary: "{{fields.type}} — {{fields.caption}}"
+            fields: *portfolio_fields
+          - label: "Music Gallery"
+            name: "music"
+            widget: "list"
+            summary: "{{fields.type}} — {{fields.caption}}"
+            fields: *portfolio_fields
