@@ -1,0 +1,19 @@
+{
+  "hero": {
+    "headline": "AB Media",
+    "tagline": "Visual storytelling across fashion, property, music, and commercial work.",
+    "highlight_reel": ""
+  },
+  "covers": {
+    "fashion": "",
+    "property": "",
+    "music": ""
+  },
+  "contact": {
+    "email": "hello@abmedia.com",
+    "instagram": ""
+  },
+  "fashion": [],
+  "property": [],
+  "music": []
+}
