@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: YOUR_GITHUB_USERNAME/ab-media-website
+  repo: anselbarclay-website/AB-Media
   branch: main
 
 media_folder: "images/uploads"
