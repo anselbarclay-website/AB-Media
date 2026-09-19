@@ -2,7 +2,7 @@
   "hero": {
     "headline": "AB Media",
     "tagline": "Visual storytelling across fashion, property, music, and commercial work.",
-    "highlight_reel": ""
+    "highlight_reel": "https://youtu.be/6GuiNrTrsCw?si=r3ehi0ypiWukn9Pi"
   },
   "covers": {
     "fashion": "/images/uploads/barclay_ansel_crit-1_11.jpg",
@@ -45,6 +45,9 @@
       "type": "Photo",
       "image": "/images/uploads/aab04549.jpg",
       "caption": "Rob Wolf Band Alpen Glow 2026"
+    },
+    {
+      "type": "Video"
     }
   ]
 }
