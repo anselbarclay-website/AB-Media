@@ -40,19 +40,28 @@ collections:
             widget: "list"
             summary: "{{fields.caption}}"
             fields:
-              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Type", name: "type", widget: "select", options: ["Photo", "Video"], default: "Photo" }
+              - { label: "Image", name: "image", widget: "image", required: false }
+              - { label: "Video File (small MP4/WebM)", name: "video_file", widget: "file", required: false, media_folder: "/videos", public_folder: "/videos" }
+              - { label: "Video URL (YouTube, Vimeo, or direct video URL)", name: "video_url", widget: "string", required: false }
               - { label: "Caption", name: "caption", widget: "string", required: false }
           - label: "Property Gallery"
             name: "property"
             widget: "list"
             summary: "{{fields.caption}}"
             fields:
-              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Type", name: "type", widget: "select", options: ["Photo", "Video"], default: "Photo" }
+              - { label: "Image", name: "image", widget: "image", required: false }
+              - { label: "Video File (small MP4/WebM)", name: "video_file", widget: "file", required: false, media_folder: "/videos", public_folder: "/videos" }
+              - { label: "Video URL (YouTube, Vimeo, or direct video URL)", name: "video_url", widget: "string", required: false }
               - { label: "Caption", name: "caption", widget: "string", required: false }
           - label: "Music Gallery"
             name: "music"
             widget: "list"
             summary: "{{fields.caption}}"
             fields:
-              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Type", name: "type", widget: "select", options: ["Photo", "Video"], default: "Photo" }
+              - { label: "Image", name: "image", widget: "image", required: false }
+              - { label: "Video File (small MP4/WebM)", name: "video_file", widget: "file", required: false, media_folder: "/videos", public_folder: "/videos" }
+              - { label: "Video URL (YouTube, Vimeo, or direct video URL)", name: "video_url", widget: "string", required: false }
               - { label: "Caption", name: "caption", widget: "string", required: false }
