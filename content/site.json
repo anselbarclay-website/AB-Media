@@ -7,11 +7,15 @@
   "covers": {
     "fashion": "/images/uploads/barclay_ansel_crit-1_11.jpg",
     "property": "/images/uploads/aab04272.jpg",
-    "music": "/images/uploads/aab04413.jpg"
+    "music": "/images/uploads/aab04413.jpg",
+    "commercial": ""
   },
   "contact": {
     "email": "anselabarclay@gmail.com",
-    "instagram": "@ansel.barclay"
+    "instagram": "@ansel.barclay",
+    "headshot": "",
+    "bio": "Bozeman-based photographer and videographer creating cinematic imagery across commercial, fashion, property, and music projects.",
+    "cta": "Start a Project"
   },
   "fashion": [
     {
@@ -49,5 +53,6 @@
     {
       "type": "Video"
     }
-  ]
+  ],
+  "commercial": []
 }

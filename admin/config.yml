@@ -29,12 +29,16 @@ collections:
               - { label: "Fashion Cover", name: "fashion", widget: "image", required: false }
               - { label: "Property Cover", name: "property", widget: "image", required: false }
               - { label: "Music Cover", name: "music", widget: "image", required: false }
+              - { label: "Commercial Cover", name: "commercial", widget: "image", required: false }
           - label: "Contact"
             name: "contact"
             widget: "object"
             fields:
               - { label: "Email", name: "email", widget: "string" }
-              - { label: "Instagram URL", name: "instagram", widget: "string", required: false }
+              - { label: "Instagram URL or @handle", name: "instagram", widget: "string", required: false }
+              - { label: "Headshot", name: "headshot", widget: "image", required: false }
+              - { label: "Bio", name: "bio", widget: "text", required: false }
+              - { label: "Contact Button Text", name: "cta", widget: "string", required: false, default: "Start a Project" }
           - label: "Fashion Gallery"
             name: "fashion"
             widget: "list"
@@ -65,3 +69,14 @@ collections:
               - { label: "Video File (small MP4/WebM)", name: "video_file", widget: "file", required: false, media_folder: "/videos", public_folder: "/videos" }
               - { label: "Video URL (YouTube, Vimeo, or direct video URL)", name: "video_url", widget: "string", required: false }
               - { label: "Caption", name: "caption", widget: "string", required: false }
+          - label: "Commercial Gallery"
+            name: "commercial"
+            widget: "list"
+            summary: "{{fields.caption}}"
+            fields:
+              - { label: "Type", name: "type", widget: "select", options: ["Photo", "Video"], default: "Photo" }
+              - { label: "Image", name: "image", widget: "image", required: false }
+              - { label: "Video File (small MP4/WebM)", name: "video_file", widget: "file", required: false, media_folder: "/videos", public_folder: "/videos" }
+              - { label: "Video URL (YouTube, Vimeo, or direct video URL)", name: "video_url", widget: "string", required: false }
+              - { label: "Caption", name: "caption", widget: "string", required: false }
+
