@@ -5,15 +5,34 @@
     "highlight_reel": ""
   },
   "covers": {
-    "fashion": "",
-    "property": "",
-    "music": ""
+    "fashion": "/images/uploads/barclay_ansel_crit-1_11.jpg",
+    "property": "/images/uploads/aab04272.jpg",
+    "music": "/images/uploads/aab04413.jpg"
   },
   "contact": {
-    "email": "hello@abmedia.com",
-    "instagram": ""
+    "email": "anselabarclay@gmail.com",
+    "instagram": "@ansel.barclay"
   },
-  "fashion": [],
+  "fashion": [
+    {
+      "type": "Video",
+      "video_url": "https://vimeo.com/1228411590?share=copy&fl=sv&fe=ci",
+      "caption": "NAM3 Brand Winter Collection 26/27"
+    },
+    {
+      "type": "Photo"
+    }
+  ],
   "property": [],
-  "music": []
+  "music": [
+    {
+      "type": "Photo",
+      "video_url": "https://vimeo.com/1228412097?share=copy&fl=sv&fe=ci",
+      "caption": "Willy On The Wire",
+      "image": "/images/uploads/aab04549.jpg"
+    },
+    {
+      "type": "Photo"
+    }
+  ]
 }
