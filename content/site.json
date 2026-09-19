@@ -32,7 +32,19 @@
       "image": "/images/uploads/aab04549.jpg"
     },
     {
-      "type": "Photo"
+      "type": "Photo",
+      "image": "/images/uploads/aab04366.jpg",
+      "caption": "Rob Wolf Band Alpen Glow 2026"
+    },
+    {
+      "type": "Photo",
+      "image": "/images/uploads/aab04469-2.jpg",
+      "caption": "Rob Wolf Band Alpen Glow 2026"
+    },
+    {
+      "type": "Photo",
+      "image": "/images/uploads/aab04549.jpg",
+      "caption": "Rob Wolf Band Alpen Glow 2026"
     }
   ]
 }
