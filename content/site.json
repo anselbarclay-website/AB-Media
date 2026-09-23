@@ -7,12 +7,14 @@
   "covers": {
     "fashion": "/images/uploads/barclay_ansel_crit-1_11.jpg",
     "property": "/images/uploads/aab04272.jpg",
-    "music": "/images/uploads/aab04413.jpg"
+    "music": "/images/uploads/aab04413.jpg",
+    "commercial": "/images/uploads/assn2_barclay_phot352_2.jpg"
   },
   "contact": {
     "email": "anselabarclay@gmail.com",
     "instagram": "@ansel.barclay",
-    "headshot": "/images/uploads/_mg_9244-2.jpg"
+    "headshot": "/images/uploads/_mg_9244-2.jpg",
+    "bio": "Bachelor of Arts in Integrated Lens-Based Media from Montana State University"
   },
   "fashion": [
     {
@@ -74,7 +76,9 @@
   ],
   "property": [
     {
-      "type": "Photo"
+      "type": "Video",
+      "video_file": "https://youtu.be/L8GZTiaQ5Sk",
+      "caption": "Wandering Buffalo Lobby Tour"
     }
   ],
   "music": [
@@ -163,6 +167,13 @@
       "type": "Photo",
       "image": "/images/uploads/aab05408-2.jpg",
       "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
+    }
+  ],
+  "commercial": [
+    {
+      "type": "Video",
+      "video_file": "https://youtu.be/0EVZKYbdAoc",
+      "caption": "Yellowstone Outdoor Services"
     }
   ]
 }
