@@ -176,6 +176,11 @@
       "type": "Video",
       "video_file": "https://youtu.be/0EVZKYbdAoc",
       "caption": "Yellowstone Outdoor Services"
+    },
+    {
+      "type": "Photo",
+      "video_file": "",
+      "video_url": "https://youtube.com/shorts/iEm9E8EEKNg?feature=share"
     }
   ]
 }
