@@ -7,11 +7,14 @@
   "covers": {
     "fashion": "/images/uploads/barclay_ansel_crit-1_11.jpg",
     "property": "/images/uploads/aab04272.jpg",
-    "music": "/images/uploads/aab04413.jpg"
+    "music": "/images/uploads/aab04413.jpg",
+    "commercial": "/images/uploads/assn2_barclay_phot352_2.jpg"
   },
   "contact": {
     "email": "anselabarclay@gmail.com",
-    "instagram": "@ansel.barclay"
+    "instagram": "@ansel.barclay",
+    "headshot": "/images/uploads/_mg_9244-2.jpg",
+    "bio": "Bachelor of Arts in Integrated Lens-Based Media from Montana State University"
   },
   "fashion": [
     {
@@ -33,9 +36,53 @@
       "type": "Photo",
       "image": "/images/uploads/aab04095.jpg",
       "caption": "NAM3 Brand Hoodies"
+    },
+    {
+      "type": "Photo",
+      "image": "/images/uploads/barclay_ansel_crit-2-11.jpg",
+      "caption": "OutaWare Bags"
+    },
+    {
+      "type": "Photo"
+    },
+    {
+      "type": "Photo"
+    },
+    {
+      "type": "Photo"
+    },
+    {
+      "type": "Photo"
+    },
+    {
+      "type": "Photo"
+    },
+    {
+      "type": "Photo"
+    },
+    {
+      "type": "Photo"
+    },
+    {
+      "type": "Photo"
+    },
+    {
+      "type": "Photo"
+    },
+    {
+      "type": "Photo"
+    },
+    {
+      "type": "Photo"
     }
   ],
-  "property": [],
+  "property": [
+    {
+      "type": "Video",
+      "video_file": "https://youtu.be/L8GZTiaQ5Sk",
+      "caption": "Wandering Buffalo Lobby Tour"
+    }
+  ],
   "music": [
     {
       "type": "Photo",
@@ -59,7 +106,81 @@
       "caption": "Rob Wolf Band Alpen Glow 2026"
     },
     {
-      "type": "Video"
+      "type": "Photo",
+      "image": "/images/uploads/aab04500.jpg",
+      "caption": "Rob Wolf Band Alpen Glow 2026"
+    },
+    {
+      "type": "Photo",
+      "image": "/images/uploads/aab04408.jpg",
+      "caption": "Rob Wolf Band Alpen Glow 2026"
+    },
+    {
+      "type": "Photo",
+      "image": "/images/uploads/aab04480.jpg",
+      "caption": "Rob Wolf Band Alpen Glow 2026"
+    },
+    {
+      "type": "Photo",
+      "image": "/images/uploads/aab05302.jpg",
+      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
+    },
+    {
+      "type": "Photo",
+      "image": "/images/uploads/aab05315.jpg",
+      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
+    },
+    {
+      "type": "Photo",
+      "image": "/images/uploads/aab04976.jpg",
+      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
+    },
+    {
+      "type": "Photo",
+      "image": "/images/uploads/aab05056.jpg",
+      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
+    },
+    {
+      "type": "Photo",
+      "image": "/images/uploads/aab05172.jpg",
+      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
+    },
+    {
+      "type": "Photo",
+      "image": "/images/uploads/aab05094.jpg",
+      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
+    },
+    {
+      "type": "Photo",
+      "image": "/images/uploads/aab05034.jpg",
+      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
+    },
+    {
+      "type": "Photo",
+      "image": "/images/uploads/aab05373.jpg",
+      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
+    },
+    {
+      "type": "Photo",
+      "image": "/images/uploads/aab05120.jpg",
+      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
+    },
+    {
+      "type": "Photo",
+      "image": "/images/uploads/aab05408-2.jpg",
+      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
+    }
+  ],
+  "commercial": [
+    {
+      "type": "Video",
+      "video_file": "https://youtu.be/0EVZKYbdAoc",
+      "caption": "Yellowstone Outdoor Services"
+    },
+    {
+      "type": "Photo",
+      "video_file": "",
+      "video_url": "https://youtube.com/shorts/iEm9E8EEKNg?feature=share"
     }
   ]
 }
