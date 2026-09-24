@@ -178,9 +178,10 @@
       "caption": "Yellowstone Outdoor Services"
     },
     {
-      "type": "Photo",
+      "type": "Video",
       "video_file": "",
-      "video_url": "https://youtube.com/shorts/iEm9E8EEKNg?feature=share"
+      "video_url": "https://youtube.com/shorts/iEm9E8EEKNg?feature=share",
+      "caption": "Sidewall Pizza Bozeman"
     }
   ]
 }
