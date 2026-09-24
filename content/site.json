@@ -179,9 +179,14 @@
     },
     {
       "type": "Video",
+      "video_url": "https://youtu.be/5fUSRCTipsQ?si=IDevUStDKlqD9DQS",
+      "caption": "Sidewall Pizza Bozeman"
+    },
+    {
+      "type": "Video",
       "video_file": "",
       "video_url": "https://youtube.com/shorts/iEm9E8EEKNg?feature=share",
-      "caption": "Sidewall Pizza Bozeman"
+      "caption": "The Mercantile at Wandering Buffalo Hotel"
     }
   ]
 }
