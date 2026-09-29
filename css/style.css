@@ -64,3 +64,17 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:35px 4vw;bord
 .bio{max-width:680px;font-size:clamp(1.05rem,1.8vw,1.45rem);line-height:1.6;margin:24px 0;color:#e5e5e1}
 @media(max-width:1000px){.work-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:800px){.work-grid{grid-template-columns:1fr}.contact-layout{grid-template-columns:1fr}.about-photo{max-width:320px}.navlinks{overflow-x:auto;white-space:nowrap;max-width:72vw}.hero-embed iframe{width:177.78vh;height:100vh}}
+
+
+/* Natural-aspect portfolio photos: preserve the photographer's full composition. */
+.gallery{align-items:start}
+.photo-tile{min-height:0;grid-column:span 6;overflow:hidden;background:#151515}
+.photo-tile.landscape{grid-column:span 12}
+.photo-tile img{width:100%;height:auto;object-fit:contain;background:#151515}
+/* Do not let the older every-third-tile rule override photo orientation. */
+.photo-tile:nth-child(3n){aspect-ratio:auto}
+.hero-embed{pointer-events:none}
+@media(max-width:800px){
+ .photo-tile,.photo-tile.landscape,.photo-tile:nth-child(3n){grid-column:span 12;min-height:0;aspect-ratio:auto}
+ .photo-tile img{width:100%;height:auto;object-fit:contain}
+}

@@ -6,7 +6,7 @@ function vimeoEmbed(url='') { const m=url.match(/vimeo\.com\/(?:video\/)?(\d+)/)
 function mediaMarkup(x,key,i) {
   const caption=esc(x.caption||'');
   const isVideo=String(x.type||'Photo').toLowerCase()==='video' || x.video_file || x.video_url;
-  if(!isVideo && x.image) return `<figure class="tile"><img src="${esc(x.image)}" alt="${caption||esc(key+' portfolio image '+(i+1))}"><figcaption>${caption}</figcaption></figure>`;
+  if(!isVideo && x.image) return `<figure class="tile photo-tile"><img src="${esc(x.image)}" alt="${caption||esc(key+' portfolio image '+(i+1))}" loading="lazy" onload="this.closest('.photo-tile').classList.toggle('landscape',this.naturalWidth>this.naturalHeight);this.closest('.photo-tile').classList.toggle('portrait',this.naturalWidth<=this.naturalHeight)"><figcaption>${caption}</figcaption></figure>`;
   const src=x.video_file||x.video_url||''; if(!src) return '';
   const embed=youtubeEmbed(src)||vimeoEmbed(src);
   if(embed) return `<figure class="tile"><div class="video-frame"><iframe src="${esc(embed)}" title="${caption||'Portfolio video'}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><figcaption>${caption}</figcaption></figure>`;
