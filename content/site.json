@@ -214,6 +214,11 @@
       "video_file": "",
       "video_url": "https://youtube.com/shorts/iEm9E8EEKNg?feature=share",
       "caption": "The Mercantile at Wandering Buffalo Hotel"
+    },
+    {
+      "type": "Video",
+      "video_url": "https://youtu.be/CTOtccJ6V9A",
+      "caption": "Puck Pouch Advert"
     }
   ]
 }
