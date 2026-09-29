@@ -29,13 +29,8 @@
     },
     {
       "type": "Photo",
-      "image": "/images/uploads/aab03880.jpg",
-      "caption": "NAM3 Brand Hoodies"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/aab04095.jpg",
-      "caption": "NAM3 Brand Hoodies"
+      "image": "/images/uploads/barclay_ansel_crit-4_-15-.jpg",
+      "caption": "OutaWare Studio Session"
     },
     {
       "type": "Photo",
@@ -44,8 +39,13 @@
     },
     {
       "type": "Photo",
-      "image": "/images/uploads/barclay_ansel_crit-4_-15-.jpg",
-      "caption": "OutaWare Studio Session"
+      "image": "/images/uploads/barclay_ansel_crit-4_-39-.jpg",
+      "caption": "CLUE Apparel"
+    },
+    {
+      "type": "Photo",
+      "image": "/images/uploads/barclay_ansel_crit-4_-6-.jpg",
+      "caption": "NAM3 Brand Graphic"
     },
     {
       "type": "Photo",
@@ -56,6 +56,11 @@
       "type": "Photo",
       "image": "/images/uploads/barclay_ansel_crit-4_-19-.jpg",
       "caption": "OutaWare Night Shoot"
+    },
+    {
+      "type": "Photo",
+      "image": "/images/uploads/aab04095.jpg",
+      "caption": "NAM3 Brand Hoodies"
     },
     {
       "type": "Photo",
@@ -89,18 +94,13 @@
     },
     {
       "type": "Photo",
-      "image": "/images/uploads/barclay_ansel_crit-4_-39-.jpg",
-      "caption": "CLUE Apparel"
+      "image": "/images/uploads/aab03880.jpg",
+      "caption": "NAM3 Brand Hoodies"
     },
     {
       "type": "Photo",
       "image": "/images/uploads/barclay_ansel_crit-4_-46-.jpg",
       "caption": "CLUE Night Session"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/barclay_ansel_crit-4_-6-.jpg",
-      "caption": "NAM3 Brand Graphic"
     }
   ],
   "property": [
@@ -112,20 +112,45 @@
   ],
   "music": [
     {
-      "type": "Photo",
+      "type": "Video",
+      "video_url": "https://youtu.be/5YId47uvGmw",
+      "caption": "Rob Wolf Band Alpen Glow 2026"
+    },
+    {
+      "type": "Video",
+      "video_url": "https://youtu.be/x_fHK3n50j4",
+      "caption": "Evan Honer at The Elm Bozeman"
+    },
+    {
+      "type": "Video",
       "video_url": "https://vimeo.com/1228412097?share=copy&fl=sv&fe=ci",
       "caption": "Willy On The Wire",
-      "image": "/images/uploads/aab04549.jpg"
+      "image": ""
     },
     {
       "type": "Photo",
-      "image": "/images/uploads/aab04366.jpg",
-      "caption": "Rob Wolf Band Alpen Glow 2026"
+      "image": "/images/uploads/aab05315.jpg",
+      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
+    },
+    {
+      "type": "Photo",
+      "image": "/images/uploads/aab05172.jpg",
+      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
     },
     {
       "type": "Photo",
       "image": "/images/uploads/aab04469-2.jpg",
       "caption": "Rob Wolf Band Alpen Glow 2026"
+    },
+    {
+      "type": "Photo",
+      "image": "/images/uploads/aab05034.jpg",
+      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
+    },
+    {
+      "type": "Photo",
+      "image": "/images/uploads/aab05408-2.jpg",
+      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
     },
     {
       "type": "Photo",
@@ -135,6 +160,11 @@
     {
       "type": "Photo",
       "image": "/images/uploads/aab04500.jpg",
+      "caption": "Rob Wolf Band Alpen Glow 2026"
+    },
+    {
+      "type": "Photo",
+      "image": "/images/uploads/aab04366.jpg",
       "caption": "Rob Wolf Band Alpen Glow 2026"
     },
     {
@@ -149,17 +179,12 @@
     },
     {
       "type": "Photo",
-      "image": "/images/uploads/aab05302.jpg",
-      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/aab05315.jpg",
-      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
-    },
-    {
-      "type": "Photo",
       "image": "/images/uploads/aab04976.jpg",
+      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
+    },
+    {
+      "type": "Photo",
+      "image": "/images/uploads/aab05302.jpg",
       "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
     },
     {
@@ -169,7 +194,7 @@
     },
     {
       "type": "Photo",
-      "image": "/images/uploads/aab05172.jpg",
+      "image": "/images/uploads/aab05373.jpg",
       "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
     },
     {
@@ -179,22 +204,7 @@
     },
     {
       "type": "Photo",
-      "image": "/images/uploads/aab05034.jpg",
-      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/aab05373.jpg",
-      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
-    },
-    {
-      "type": "Photo",
       "image": "/images/uploads/aab05120.jpg",
-      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/aab05408-2.jpg",
       "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
     }
   ],
@@ -211,14 +221,14 @@
     },
     {
       "type": "Video",
-      "video_file": "",
-      "video_url": "https://youtube.com/shorts/iEm9E8EEKNg?feature=share",
-      "caption": "The Mercantile at Wandering Buffalo Hotel"
+      "video_url": "https://youtu.be/CTOtccJ6V9A",
+      "caption": "Puck Pouch Advert"
     },
     {
       "type": "Video",
-      "video_url": "https://youtu.be/CTOtccJ6V9A",
-      "caption": "Puck Pouch Advert"
+      "video_file": "",
+      "video_url": "https://youtube.com/shorts/iEm9E8EEKNg?feature=share",
+      "caption": "The Mercantile at Wandering Buffalo Hotel"
     }
   ]
 }
