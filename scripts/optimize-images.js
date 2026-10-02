@@ -45,7 +45,7 @@ async function run() {
           withoutEnlargement: true
         })
         .webp({
-          quality: width === 1600 ? 82 : 78,
+     quality: width === 1600 ? 90 : width === 960 ? 87 : 84,
           effort: 4
         })
         .toFile(output);
