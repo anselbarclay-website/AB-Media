@@ -78,3 +78,39 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:35px 4vw;bord
  .photo-tile,.photo-tile.landscape,.photo-tile:nth-child(3n){grid-column:span 12;min-height:0;aspect-ratio:auto}
  .photo-tile img{width:100%;height:auto;object-fit:contain}
 }
+
+/* Editable portfolio subcategories */
+.subcategory-nav{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 34px}
+.subcategory-btn{appearance:none;background:transparent;color:var(--muted);border:1px solid var(--line);padding:10px 14px;text-transform:uppercase;letter-spacing:.12em;font-size:.7rem;cursor:pointer}
+.subcategory-btn:hover,.subcategory-btn.active{background:#fff;color:#000;border-color:#fff}
+
+
+/* Decap-controlled site appearance. Dark remains the default. */
+:root[data-theme="light"]{
+  --bg:#fff;
+  --panel:#f4f4f2;
+  --text:#0a0a0a;
+  --muted:#555552;
+  --line:#d8d8d4;
+}
+:root[data-theme="light"] body{background:#fff;color:#0a0a0a}
+:root[data-theme="light"] .nav{background:linear-gradient(#fffffff2,transparent)}
+:root[data-theme="light"] .hero{background:#f4f4f2}
+:root[data-theme="light"] .hero:after{background:linear-gradient(90deg,#ffffffd9,#ffffff66 65%),linear-gradient(0deg,#ffffffb8,transparent 55%)}
+:root[data-theme="light"] .hero-copy p,
+:root[data-theme="light"] .eyebrow{color:#333330}
+:root[data-theme="light"] .btn{border-color:#0a0a0a;color:#0a0a0a}
+:root[data-theme="light"] .btn:hover{background:#0a0a0a;color:#fff}
+:root[data-theme="light"] .work-card,
+:root[data-theme="light"] .tile,
+:root[data-theme="light"] .photo-tile,
+:root[data-theme="light"] .photo-tile img,
+:root[data-theme="light"] .about-photo{background:#f4f4f2}
+:root[data-theme="light"] .work-card:after{background:linear-gradient(transparent 50%,#ffffffd9)}
+:root[data-theme="light"] .card-label{color:#0a0a0a}
+:root[data-theme="light"] .note{background:#f6f6f4;color:#555552}
+:root[data-theme="light"] .bio{color:#1d1d1b}
+:root[data-theme="light"] footer{color:#555552}
+:root[data-theme="light"] .subcategory-btn:hover,
+:root[data-theme="light"] .subcategory-btn.active{background:#0a0a0a;color:#fff;border-color:#0a0a0a}
+:root[data-theme="light"] .tile figcaption{background:#ffffffe6;color:#0a0a0a}
