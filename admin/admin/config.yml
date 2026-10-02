@@ -19,7 +19,7 @@ collections:
             name: "appearance"
             widget: "object"
             fields:
-              - { label: "Theme", name: "theme", widget: "select", options: [{ label: "Dark — black background / white text", value: "dark" }, { label: "Light — white background / black text", value: "light" }], default: "dark", hint: "Switch the entire public website between dark and light appearance, then publish your changes." }
+              - { label: "Theme", name: "theme", widget: "select", options: [{ label: "Dark — black background / white text", value: "dark" }, { label: "Light — white background / black text", value: "light" }], default: "dark" }
           - label: "Homepage"
             name: "hero"
             widget: "object"
@@ -44,11 +44,11 @@ collections:
               - { label: "Headshot", name: "headshot", widget: "image", required: false }
               - { label: "Bio", name: "bio", widget: "text", required: false }
               - { label: "Contact Button Text", name: "cta", widget: "string", required: false, default: "Start a Project" }
-          - label: "Portfolio Categories"
-            name: "categories"
+          - label: "Category Titles, Captions & Subcategories"
+            name: "category_settings"
             widget: "object"
             fields:
-              - label: "Category 1"
+              - label: "Fashion Settings"
                 name: "fashion"
                 widget: "object"
                 fields:
@@ -61,20 +61,9 @@ collections:
                     max: 8
                     summary: "{{fields.title}}"
                     fields:
-                      - { label: "Subcategory ID", name: "id", widget: "select", options: ["sub1", "sub2", "sub3", "sub4", "sub5", "sub6", "sub7", "sub8"], hint: "Use each ID only once. The title below is what visitors see." }
+                      - { label: "Subcategory ID", name: "id", widget: "select", options: ["sub1", "sub2", "sub3", "sub4", "sub5", "sub6", "sub7", "sub8"] }
                       - { label: "Subcategory Title", name: "title", widget: "string" }
-                  - label: "Gallery Items"
-                    name: "items"
-                    widget: "list"
-                    summary: "{{fields.caption}}"
-                    fields:
-                      - { label: "Subcategory", name: "subcategory", widget: "select", options: ["sub1", "sub2", "sub3", "sub4", "sub5", "sub6", "sub7", "sub8"], default: "sub1", hint: "Choose the ID matching the subcategory above. Changing this does not re-upload the image." }
-                      - { label: "Type", name: "type", widget: "select", options: ["Photo", "Video"], default: "Photo" }
-                      - { label: "Image", name: "image", widget: "image", required: false }
-                      - { label: "Video File (small MP4/WebM)", name: "video_file", widget: "file", required: false, media_folder: "/videos", public_folder: "/videos" }
-                      - { label: "Video URL (YouTube, Vimeo, or direct video URL)", name: "video_url", widget: "string", required: false }
-                      - { label: "Caption", name: "caption", widget: "string", required: false }
-              - label: "Category 2"
+              - label: "Property Settings"
                 name: "property"
                 widget: "object"
                 fields:
@@ -87,20 +76,9 @@ collections:
                     max: 8
                     summary: "{{fields.title}}"
                     fields:
-                      - { label: "Subcategory ID", name: "id", widget: "select", options: ["sub1", "sub2", "sub3", "sub4", "sub5", "sub6", "sub7", "sub8"], hint: "Use each ID only once. The title below is what visitors see." }
+                      - { label: "Subcategory ID", name: "id", widget: "select", options: ["sub1", "sub2", "sub3", "sub4", "sub5", "sub6", "sub7", "sub8"] }
                       - { label: "Subcategory Title", name: "title", widget: "string" }
-                  - label: "Gallery Items"
-                    name: "items"
-                    widget: "list"
-                    summary: "{{fields.caption}}"
-                    fields:
-                      - { label: "Subcategory", name: "subcategory", widget: "select", options: ["sub1", "sub2", "sub3", "sub4", "sub5", "sub6", "sub7", "sub8"], default: "sub1", hint: "Choose the ID matching the subcategory above. Changing this does not re-upload the image." }
-                      - { label: "Type", name: "type", widget: "select", options: ["Photo", "Video"], default: "Photo" }
-                      - { label: "Image", name: "image", widget: "image", required: false }
-                      - { label: "Video File (small MP4/WebM)", name: "video_file", widget: "file", required: false, media_folder: "/videos", public_folder: "/videos" }
-                      - { label: "Video URL (YouTube, Vimeo, or direct video URL)", name: "video_url", widget: "string", required: false }
-                      - { label: "Caption", name: "caption", widget: "string", required: false }
-              - label: "Category 3"
+              - label: "Music Settings"
                 name: "music"
                 widget: "object"
                 fields:
@@ -113,20 +91,9 @@ collections:
                     max: 8
                     summary: "{{fields.title}}"
                     fields:
-                      - { label: "Subcategory ID", name: "id", widget: "select", options: ["sub1", "sub2", "sub3", "sub4", "sub5", "sub6", "sub7", "sub8"], hint: "Use each ID only once. The title below is what visitors see." }
+                      - { label: "Subcategory ID", name: "id", widget: "select", options: ["sub1", "sub2", "sub3", "sub4", "sub5", "sub6", "sub7", "sub8"] }
                       - { label: "Subcategory Title", name: "title", widget: "string" }
-                  - label: "Gallery Items"
-                    name: "items"
-                    widget: "list"
-                    summary: "{{fields.caption}}"
-                    fields:
-                      - { label: "Subcategory", name: "subcategory", widget: "select", options: ["sub1", "sub2", "sub3", "sub4", "sub5", "sub6", "sub7", "sub8"], default: "sub1", hint: "Choose the ID matching the subcategory above. Changing this does not re-upload the image." }
-                      - { label: "Type", name: "type", widget: "select", options: ["Photo", "Video"], default: "Photo" }
-                      - { label: "Image", name: "image", widget: "image", required: false }
-                      - { label: "Video File (small MP4/WebM)", name: "video_file", widget: "file", required: false, media_folder: "/videos", public_folder: "/videos" }
-                      - { label: "Video URL (YouTube, Vimeo, or direct video URL)", name: "video_url", widget: "string", required: false }
-                      - { label: "Caption", name: "caption", widget: "string", required: false }
-              - label: "Category 4"
+              - label: "Commercial Settings"
                 name: "commercial"
                 widget: "object"
                 fields:
@@ -139,16 +106,49 @@ collections:
                     max: 8
                     summary: "{{fields.title}}"
                     fields:
-                      - { label: "Subcategory ID", name: "id", widget: "select", options: ["sub1", "sub2", "sub3", "sub4", "sub5", "sub6", "sub7", "sub8"], hint: "Use each ID only once. The title below is what visitors see." }
+                      - { label: "Subcategory ID", name: "id", widget: "select", options: ["sub1", "sub2", "sub3", "sub4", "sub5", "sub6", "sub7", "sub8"] }
                       - { label: "Subcategory Title", name: "title", widget: "string" }
-                  - label: "Gallery Items"
-                    name: "items"
-                    widget: "list"
-                    summary: "{{fields.caption}}"
-                    fields:
-                      - { label: "Subcategory", name: "subcategory", widget: "select", options: ["sub1", "sub2", "sub3", "sub4", "sub5", "sub6", "sub7", "sub8"], default: "sub1", hint: "Choose the ID matching the subcategory above. Changing this does not re-upload the image." }
-                      - { label: "Type", name: "type", widget: "select", options: ["Photo", "Video"], default: "Photo" }
-                      - { label: "Image", name: "image", widget: "image", required: false }
-                      - { label: "Video File (small MP4/WebM)", name: "video_file", widget: "file", required: false, media_folder: "/videos", public_folder: "/videos" }
-                      - { label: "Video URL (YouTube, Vimeo, or direct video URL)", name: "video_url", widget: "string", required: false }
-                      - { label: "Caption", name: "caption", widget: "string", required: false }
+          - label: "Fashion Gallery"
+            name: "fashion"
+            widget: "list"
+            summary: "{{fields.caption}}"
+            fields:
+              - { label: "Subcategory", name: "subcategory", widget: "select", options: ["sub1", "sub2", "sub3", "sub4", "sub5", "sub6", "sub7", "sub8"], default: "sub1", hint: "Changing this moves the existing item without re-uploading its image." }
+              - { label: "Type", name: "type", widget: "select", options: ["Photo", "Video"], default: "Photo" }
+              - { label: "Image", name: "image", widget: "image", required: false }
+              - { label: "Video File (small MP4/WebM)", name: "video_file", widget: "file", required: false, media_folder: "/videos", public_folder: "/videos" }
+              - { label: "Video URL (YouTube, Vimeo, or direct video URL)", name: "video_url", widget: "string", required: false }
+              - { label: "Caption", name: "caption", widget: "string", required: false }
+          - label: "Property Gallery"
+            name: "property"
+            widget: "list"
+            summary: "{{fields.caption}}"
+            fields:
+              - { label: "Subcategory", name: "subcategory", widget: "select", options: ["sub1", "sub2", "sub3", "sub4", "sub5", "sub6", "sub7", "sub8"], default: "sub1", hint: "Changing this moves the existing item without re-uploading its image." }
+              - { label: "Type", name: "type", widget: "select", options: ["Photo", "Video"], default: "Photo" }
+              - { label: "Image", name: "image", widget: "image", required: false }
+              - { label: "Video File (small MP4/WebM)", name: "video_file", widget: "file", required: false, media_folder: "/videos", public_folder: "/videos" }
+              - { label: "Video URL (YouTube, Vimeo, or direct video URL)", name: "video_url", widget: "string", required: false }
+              - { label: "Caption", name: "caption", widget: "string", required: false }
+          - label: "Music Gallery"
+            name: "music"
+            widget: "list"
+            summary: "{{fields.caption}}"
+            fields:
+              - { label: "Subcategory", name: "subcategory", widget: "select", options: ["sub1", "sub2", "sub3", "sub4", "sub5", "sub6", "sub7", "sub8"], default: "sub1", hint: "Changing this moves the existing item without re-uploading its image." }
+              - { label: "Type", name: "type", widget: "select", options: ["Photo", "Video"], default: "Photo" }
+              - { label: "Image", name: "image", widget: "image", required: false }
+              - { label: "Video File (small MP4/WebM)", name: "video_file", widget: "file", required: false, media_folder: "/videos", public_folder: "/videos" }
+              - { label: "Video URL (YouTube, Vimeo, or direct video URL)", name: "video_url", widget: "string", required: false }
+              - { label: "Caption", name: "caption", widget: "string", required: false }
+          - label: "Commercial Gallery"
+            name: "commercial"
+            widget: "list"
+            summary: "{{fields.caption}}"
+            fields:
+              - { label: "Subcategory", name: "subcategory", widget: "select", options: ["sub1", "sub2", "sub3", "sub4", "sub5", "sub6", "sub7", "sub8"], default: "sub1", hint: "Changing this moves the existing item without re-uploading its image." }
+              - { label: "Type", name: "type", widget: "select", options: ["Photo", "Video"], default: "Photo" }
+              - { label: "Image", name: "image", widget: "image", required: false }
+              - { label: "Video File (small MP4/WebM)", name: "video_file", widget: "file", required: false, media_folder: "/videos", public_folder: "/videos" }
+              - { label: "Video URL (YouTube, Vimeo, or direct video URL)", name: "video_url", widget: "string", required: false }
+              - { label: "Caption", name: "caption", widget: "string", required: false }
