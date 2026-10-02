@@ -16,219 +16,305 @@
     "headshot": "/images/uploads/_mg_9244-2.jpg",
     "bio": "Bachelor of Arts in Integrated Lens-Based Media from Montana State University"
   },
-  "fashion": [
-    {
-      "type": "Video",
-      "video_url": "https://vimeo.com/1228411590?share=copy&fl=sv&fe=ci",
-      "caption": "NAM3 Brand Winter Collection 26/27"
+  "categories": {
+    "fashion": {
+      "title": "Fashion",
+      "caption": "Editorial, campaign, lifestyle, and fashion-focused imagery.",
+      "subcategories": [
+        {
+          "id": "sub1",
+          "title": "All Work"
+        }
+      ],
+      "items": [
+        {
+          "type": "Video",
+          "video_url": "https://vimeo.com/1228411590?share=copy&fl=sv&fe=ci",
+          "caption": "NAM3 Brand Winter Collection 26/27",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Video",
+          "video_file": "youtube.com/shorts/nVcyNLz_-YI?feature=share",
+          "caption": "NAM3 Brand Hoodies",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-4_-15-.jpg",
+          "caption": "OutaWare Studio Session",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-2-11.jpg",
+          "caption": "OutaWare Bags",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-4_-39-.jpg",
+          "caption": "CLUE Apparel",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-4_-6-.jpg",
+          "caption": "NAM3 Brand Graphic",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-4_-17-.jpg",
+          "caption": "OutaWare Green Suit",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-4_-19-.jpg",
+          "caption": "OutaWare Night Shoot",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/aab04095.jpg",
+          "caption": "NAM3 Brand Hoodies",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-4_-21-.jpg",
+          "caption": "NAM3 Brand Studio Session",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-4_-26-.jpg",
+          "caption": "NAM3 Brand 25/26 Collection",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-4_-28-.jpg",
+          "caption": "NAM3 Brand 25/26 Collection",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-4_-3-.jpg",
+          "caption": "CLUE Studio Session",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-4_-32-.jpg",
+          "caption": "CLUE Outdoor Shoot",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-4_-35-.jpg",
+          "caption": "CLUE Jackets",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/aab03880.jpg",
+          "caption": "NAM3 Brand Hoodies",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-4_-46-.jpg",
+          "caption": "CLUE Night Session",
+          "subcategory": "sub1"
+        }
+      ]
     },
-    {
-      "type": "Video",
-      "video_file": "youtube.com/shorts/nVcyNLz_-YI?feature=share",
-      "caption": "NAM3 Brand Hoodies"
+    "property": {
+      "title": "Property Content",
+      "caption": "Photo and video content for hotels, rentals, real estate, and hospitality.",
+      "subcategories": [
+        {
+          "id": "sub1",
+          "title": "All Work"
+        }
+      ],
+      "items": [
+        {
+          "type": "Video",
+          "video_file": "https://youtu.be/L8GZTiaQ5Sk",
+          "caption": "Wandering Buffalo Lobby Tour",
+          "subcategory": "sub1"
+        }
+      ]
     },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/barclay_ansel_crit-4_-15-.jpg",
-      "caption": "OutaWare Studio Session"
+    "music": {
+      "title": "Music Imagery",
+      "caption": "Concert photography, live performance films, artist visuals, and promotional imagery.",
+      "subcategories": [
+        {
+          "id": "sub1",
+          "title": "All Work"
+        }
+      ],
+      "items": [
+        {
+          "type": "Video",
+          "video_url": "https://youtu.be/5YId47uvGmw",
+          "caption": "Rob Wolf Band Alpen Glow 2026",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Video",
+          "video_url": "https://youtu.be/x_fHK3n50j4",
+          "caption": "Evan Honer at The Elm Bozeman",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Video",
+          "video_url": "https://vimeo.com/1228412097?share=copy&fl=sv&fe=ci",
+          "caption": "Willy On The Wire",
+          "image": "",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/aab05315.jpg",
+          "caption": "Michael Armstrong - The Brick Breeden Fieldhouse",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/aab05172.jpg",
+          "caption": "Michael Armstrong - The Brick Breeden Fieldhouse",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/aab04469-2.jpg",
+          "caption": "Rob Wolf Band Alpen Glow 2026",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/aab05034.jpg",
+          "caption": "Michael Armstrong - The Brick Breeden Fieldhouse",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/aab05408-2.jpg",
+          "caption": "Michael Armstrong - The Brick Breeden Fieldhouse",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/aab04549.jpg",
+          "caption": "Rob Wolf Band Alpen Glow 2026",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/aab04500.jpg",
+          "caption": "Rob Wolf Band Alpen Glow 2026",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/aab04366.jpg",
+          "caption": "Rob Wolf Band Alpen Glow 2026",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/aab04408.jpg",
+          "caption": "Rob Wolf Band Alpen Glow 2026",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/aab04480.jpg",
+          "caption": "Rob Wolf Band Alpen Glow 2026",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/aab04976.jpg",
+          "caption": "Michael Armstrong - The Brick Breeden Fieldhouse",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/aab05302.jpg",
+          "caption": "Michael Armstrong - The Brick Breeden Fieldhouse",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/aab05056.jpg",
+          "caption": "Michael Armstrong - The Brick Breeden Fieldhouse",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/aab05373.jpg",
+          "caption": "Michael Armstrong - The Brick Breeden Fieldhouse",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/aab05094.jpg",
+          "caption": "Michael Armstrong - The Brick Breeden Fieldhouse",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Photo",
+          "image": "/images/uploads/aab05120.jpg",
+          "caption": "Michael Armstrong - The Brick Breeden Fieldhouse",
+          "subcategory": "sub1"
+        }
+      ]
     },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/barclay_ansel_crit-2-11.jpg",
-      "caption": "OutaWare Bags"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/barclay_ansel_crit-4_-39-.jpg",
-      "caption": "CLUE Apparel"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/barclay_ansel_crit-4_-6-.jpg",
-      "caption": "NAM3 Brand Graphic"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/barclay_ansel_crit-4_-17-.jpg",
-      "caption": "OutaWare Green Suit"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/barclay_ansel_crit-4_-19-.jpg",
-      "caption": "OutaWare Night Shoot"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/aab04095.jpg",
-      "caption": "NAM3 Brand Hoodies"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/barclay_ansel_crit-4_-21-.jpg",
-      "caption": "NAM3 Brand Studio Session"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/barclay_ansel_crit-4_-26-.jpg",
-      "caption": "NAM3 Brand 25/26 Collection"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/barclay_ansel_crit-4_-28-.jpg",
-      "caption": "NAM3 Brand 25/26 Collection"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/barclay_ansel_crit-4_-3-.jpg",
-      "caption": "CLUE Studio Session"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/barclay_ansel_crit-4_-32-.jpg",
-      "caption": "CLUE Outdoor Shoot"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/barclay_ansel_crit-4_-35-.jpg",
-      "caption": "CLUE Jackets"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/aab03880.jpg",
-      "caption": "NAM3 Brand Hoodies"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/barclay_ansel_crit-4_-46-.jpg",
-      "caption": "CLUE Night Session"
+    "commercial": {
+      "title": "Commercial",
+      "caption": "Brand campaigns, hospitality, product, lifestyle, and commercial storytelling.",
+      "subcategories": [
+        {
+          "id": "sub1",
+          "title": "All Work"
+        }
+      ],
+      "items": [
+        {
+          "type": "Video",
+          "video_file": "https://youtu.be/0EVZKYbdAoc",
+          "caption": "Yellowstone Outdoor Services",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Video",
+          "video_url": "https://youtu.be/5fUSRCTipsQ?si=IDevUStDKlqD9DQS",
+          "caption": "Sidewall Pizza Bozeman",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Video",
+          "video_url": "https://youtu.be/CTOtccJ6V9A",
+          "caption": "Puck Pouch Advert",
+          "subcategory": "sub1"
+        },
+        {
+          "type": "Video",
+          "video_file": "",
+          "video_url": "https://youtube.com/shorts/iEm9E8EEKNg?feature=share",
+          "caption": "The Mercantile at Wandering Buffalo Hotel",
+          "subcategory": "sub1"
+        }
+      ]
     }
-  ],
-  "property": [
-    {
-      "type": "Video",
-      "video_file": "https://youtu.be/L8GZTiaQ5Sk",
-      "caption": "Wandering Buffalo Lobby Tour"
-    }
-  ],
-  "music": [
-    {
-      "type": "Video",
-      "video_url": "https://youtu.be/5YId47uvGmw",
-      "caption": "Rob Wolf Band Alpen Glow 2026"
-    },
-    {
-      "type": "Video",
-      "video_url": "https://youtu.be/x_fHK3n50j4",
-      "caption": "Evan Honer at The Elm Bozeman"
-    },
-    {
-      "type": "Video",
-      "video_url": "https://vimeo.com/1228412097?share=copy&fl=sv&fe=ci",
-      "caption": "Willy On The Wire",
-      "image": ""
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/aab05315.jpg",
-      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/aab05172.jpg",
-      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/aab04469-2.jpg",
-      "caption": "Rob Wolf Band Alpen Glow 2026"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/aab05034.jpg",
-      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/aab05408-2.jpg",
-      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/aab04549.jpg",
-      "caption": "Rob Wolf Band Alpen Glow 2026"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/aab04500.jpg",
-      "caption": "Rob Wolf Band Alpen Glow 2026"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/aab04366.jpg",
-      "caption": "Rob Wolf Band Alpen Glow 2026"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/aab04408.jpg",
-      "caption": "Rob Wolf Band Alpen Glow 2026"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/aab04480.jpg",
-      "caption": "Rob Wolf Band Alpen Glow 2026"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/aab04976.jpg",
-      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/aab05302.jpg",
-      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/aab05056.jpg",
-      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/aab05373.jpg",
-      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/aab05094.jpg",
-      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
-    },
-    {
-      "type": "Photo",
-      "image": "/images/uploads/aab05120.jpg",
-      "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
-    }
-  ],
-  "commercial": [
-    {
-      "type": "Video",
-      "video_file": "https://youtu.be/0EVZKYbdAoc",
-      "caption": "Yellowstone Outdoor Services"
-    },
-    {
-      "type": "Video",
-      "video_url": "https://youtu.be/5fUSRCTipsQ?si=IDevUStDKlqD9DQS",
-      "caption": "Sidewall Pizza Bozeman"
-    },
-    {
-      "type": "Video",
-      "video_url": "https://youtu.be/CTOtccJ6V9A",
-      "caption": "Puck Pouch Advert"
-    },
-    {
-      "type": "Video",
-      "video_file": "",
-      "video_url": "https://youtube.com/shorts/iEm9E8EEKNg?feature=share",
-      "caption": "The Mercantile at Wandering Buffalo Hotel"
-    }
-  ]
+  },
+  "appearance": {
+    "theme": "dark"
+  }
 }
