@@ -1,0 +1,10 @@
+{
+  "name": "ab-media-site",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/optimize-images.js"
+  },
+  "dependencies": {
+    "sharp": "^0.34.4"
+  }
+}

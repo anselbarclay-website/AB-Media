@@ -1,0 +1,18 @@
+AB Media automatic image optimization
+
+What changed:
+- Decap CMS can keep uploading original photos to images/uploads.
+- Every Netlify production build runs scripts/optimize-images.js.
+- The build creates WebP versions at 480px, 960px, and 1600px widths.
+- Gallery, cover, and headshot images use responsive srcset/sizes so phones download smaller files than desktops.
+- Gallery images lazy-load and decode asynchronously.
+- If an optimized derivative is unavailable, the browser falls back to the original upload.
+
+Important:
+- Keep package.json, package-lock.json (after Netlify/npm creates it), netlify.toml, scripts/optimize-images.js, and the updated js/site.js in the repository.
+- Do not manually upload files into images/optimized. Netlify regenerates that folder during builds.
+- Original uploads remain in GitHub/Decap; visitors normally receive the smaller generated WebP versions.
+
+Appearance:
+- Decap Website Content now includes a Website Appearance > Theme control.
+- Dark is the default; Light switches the public site to a white background with black text.
