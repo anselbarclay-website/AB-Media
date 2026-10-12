@@ -48,6 +48,12 @@
           "subcategory": "sub1"
         },
         {
+          "subcategory": "sub1",
+          "type": "Video",
+          "caption": "NAM3 Brand 26/27 Collection",
+          "video_url": "https://youtu.be/U9w_PsMRCA4"
+        },
+        {
           "type": "Photo",
           "image": "/images/uploads/barclay_ansel_crit-4_-15-.jpg",
           "caption": "OutaWare Studio Session",
