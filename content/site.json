@@ -142,6 +142,10 @@
           "image": "/images/uploads/barclay_ansel_crit-4_-46-.jpg",
           "caption": "CLUE Night Session",
           "subcategory": "sub3"
+        },
+        {
+          "subcategory": "sub1",
+          "type": "Photo"
         }
       ]
     },
