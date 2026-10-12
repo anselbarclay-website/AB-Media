@@ -114,3 +114,21 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:35px 4vw;bord
 :root[data-theme="light"] .subcategory-btn:hover,
 :root[data-theme="light"] .subcategory-btn.active{background:#0a0a0a;color:#fff;border-color:#0a0a0a}
 :root[data-theme="light"] .tile figcaption{background:#ffffffe6;color:#0a0a0a}
+/* Keep homepage highlight reel text white in light mode */
+:root[data-theme="light"] .hero-copy,
+:root[data-theme="light"] .hero-copy h1,
+:root[data-theme="light"] .hero-copy p,
+:root[data-theme="light"] .hero-copy .eyebrow {
+  color: #ffffff;
+}
+
+/* Keep highlight reel button readable */
+:root[data-theme="light"] .hero-copy .btn {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+:root[data-theme="light"] .hero-copy .btn:hover {
+  background: #ffffff;
+  color: #000000;
+}
