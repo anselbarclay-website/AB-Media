@@ -23,7 +23,15 @@
       "subcategories": [
         {
           "id": "sub1",
-          "title": "All Work"
+          "title": "NAM3 Brand"
+        },
+        {
+          "id": "sub2",
+          "title": "OutaWare"
+        },
+        {
+          "id": "sub3",
+          "title": "CLUE"
         }
       ],
       "items": [
@@ -43,19 +51,19 @@
           "type": "Photo",
           "image": "/images/uploads/barclay_ansel_crit-4_-15-.jpg",
           "caption": "OutaWare Studio Session",
-          "subcategory": "sub1"
+          "subcategory": "sub2"
         },
         {
           "type": "Photo",
           "image": "/images/uploads/barclay_ansel_crit-2-11.jpg",
           "caption": "OutaWare Bags",
-          "subcategory": "sub1"
+          "subcategory": "sub2"
         },
         {
           "type": "Photo",
           "image": "/images/uploads/barclay_ansel_crit-4_-39-.jpg",
           "caption": "CLUE Apparel",
-          "subcategory": "sub1"
+          "subcategory": "sub3"
         },
         {
           "type": "Photo",
@@ -67,13 +75,13 @@
           "type": "Photo",
           "image": "/images/uploads/barclay_ansel_crit-4_-17-.jpg",
           "caption": "OutaWare Green Suit",
-          "subcategory": "sub1"
+          "subcategory": "sub2"
         },
         {
           "type": "Photo",
           "image": "/images/uploads/barclay_ansel_crit-4_-19-.jpg",
           "caption": "OutaWare Night Shoot",
-          "subcategory": "sub1"
+          "subcategory": "sub2"
         },
         {
           "type": "Photo",
@@ -103,19 +111,19 @@
           "type": "Photo",
           "image": "/images/uploads/barclay_ansel_crit-4_-3-.jpg",
           "caption": "CLUE Studio Session",
-          "subcategory": "sub1"
+          "subcategory": "sub3"
         },
         {
           "type": "Photo",
           "image": "/images/uploads/barclay_ansel_crit-4_-32-.jpg",
           "caption": "CLUE Outdoor Shoot",
-          "subcategory": "sub1"
+          "subcategory": "sub3"
         },
         {
           "type": "Photo",
           "image": "/images/uploads/barclay_ansel_crit-4_-35-.jpg",
           "caption": "CLUE Jackets",
-          "subcategory": "sub1"
+          "subcategory": "sub4"
         },
         {
           "type": "Photo",
@@ -127,7 +135,7 @@
           "type": "Photo",
           "image": "/images/uploads/barclay_ansel_crit-4_-46-.jpg",
           "caption": "CLUE Night Session",
-          "subcategory": "sub1"
+          "subcategory": "sub3"
         }
       ]
     },
