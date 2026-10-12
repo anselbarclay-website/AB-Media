@@ -96,7 +96,7 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:35px 4vw;bord
 :root[data-theme="light"] body{background:#fff;color:#0a0a0a}
 :root[data-theme="light"] .nav{background:linear-gradient(#fffffff2,transparent)}
 :root[data-theme="light"] .hero{background:#f4f4f2}
-:root[data-theme="light"] .hero:after{background:linear-gradient(90deg,#ffffffd9,#ffffff66 65%),linear-gradient(0deg,#ffffffb8,transparent 55%)}
+:root[data-theme="light"] .hero:after{background:transparent}
 :root[data-theme="light"] .hero-copy p,
 :root[data-theme="light"] .eyebrow{color:#333330}
 :root[data-theme="light"] .btn{border-color:#0a0a0a;color:#0a0a0a}
