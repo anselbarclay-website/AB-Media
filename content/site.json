@@ -14,7 +14,7 @@
     "email": "anselabarclay@gmail.com",
     "instagram": "@ansel.barclay",
     "headshot": "/images/uploads/_mg_9244-2.jpg",
-    "bio": "Bachelor of Arts in Integrated Lens-Based Media from Montana State University"
+    "bio": "Ansel Barclay is a photographer/ videographer from the icey woods of New Hampshire. A graduate from the School of Film and Photography at Montana State University, he is excited for what the future holds for his creative works. Because of his upbringing in the outdoors participating in activities such as skiing and mountain biking, his love for these hobbies presents him with a perfect subject to drive his passion projects in the outdoors. Through his eye for fashion, he has collaborated on work with brands for promotion and marketing purposes in order to broaden their reach in the apparel space. Still imagery is not where he draws the line however as he is well versed in film as well, documenting major musicians at popular venues as well as holding the role of producer on short films. Stay tuned for new work that Ansel releases in the future.."
   },
   "categories": {
     "fashion": {
@@ -23,13 +23,21 @@
       "subcategories": [
         {
           "id": "sub1",
-          "title": "All Work"
+          "title": "NAM3 Brand"
+        },
+        {
+          "id": "sub2",
+          "title": "OutaWare"
+        },
+        {
+          "id": "sub3",
+          "title": "CLUE"
         }
       ],
       "items": [
         {
           "type": "Video",
-          "video_url": "https://vimeo.com/1228411590?share=copy&fl=sv&fe=ci",
+          "video_url": "https://youtu.be/BVkwry5qOik",
           "caption": "NAM3 Brand Winter Collection 26/27",
           "subcategory": "sub1"
         },
@@ -40,22 +48,28 @@
           "subcategory": "sub1"
         },
         {
+          "subcategory": "sub1",
+          "type": "Video",
+          "caption": "NAM3 Brand 26/27 Collection",
+          "video_url": "https://youtu.be/U9w_PsMRCA4"
+        },
+        {
           "type": "Photo",
           "image": "/images/uploads/barclay_ansel_crit-4_-15-.jpg",
           "caption": "OutaWare Studio Session",
-          "subcategory": "sub1"
+          "subcategory": "sub2"
         },
         {
           "type": "Photo",
           "image": "/images/uploads/barclay_ansel_crit-2-11.jpg",
           "caption": "OutaWare Bags",
-          "subcategory": "sub1"
+          "subcategory": "sub2"
         },
         {
           "type": "Photo",
           "image": "/images/uploads/barclay_ansel_crit-4_-39-.jpg",
           "caption": "CLUE Apparel",
-          "subcategory": "sub1"
+          "subcategory": "sub3"
         },
         {
           "type": "Photo",
@@ -67,13 +81,13 @@
           "type": "Photo",
           "image": "/images/uploads/barclay_ansel_crit-4_-17-.jpg",
           "caption": "OutaWare Green Suit",
-          "subcategory": "sub1"
+          "subcategory": "sub2"
         },
         {
           "type": "Photo",
           "image": "/images/uploads/barclay_ansel_crit-4_-19-.jpg",
           "caption": "OutaWare Night Shoot",
-          "subcategory": "sub1"
+          "subcategory": "sub2"
         },
         {
           "type": "Photo",
@@ -103,19 +117,19 @@
           "type": "Photo",
           "image": "/images/uploads/barclay_ansel_crit-4_-3-.jpg",
           "caption": "CLUE Studio Session",
-          "subcategory": "sub1"
+          "subcategory": "sub3"
         },
         {
           "type": "Photo",
           "image": "/images/uploads/barclay_ansel_crit-4_-32-.jpg",
           "caption": "CLUE Outdoor Shoot",
-          "subcategory": "sub1"
+          "subcategory": "sub3"
         },
         {
           "type": "Photo",
           "image": "/images/uploads/barclay_ansel_crit-4_-35-.jpg",
           "caption": "CLUE Jackets",
-          "subcategory": "sub1"
+          "subcategory": "sub4"
         },
         {
           "type": "Photo",
@@ -127,7 +141,15 @@
           "type": "Photo",
           "image": "/images/uploads/barclay_ansel_crit-4_-46-.jpg",
           "caption": "CLUE Night Session",
-          "subcategory": "sub1"
+          "subcategory": "sub3"
+        },
+        {
+          "subcategory": "sub1",
+          "type": "Photo"
+        },
+        {
+          "subcategory": "sub1",
+          "type": "Photo"
         }
       ]
     },
@@ -155,7 +177,15 @@
       "subcategories": [
         {
           "id": "sub1",
-          "title": "All Work"
+          "title": "Rob Wolf Band"
+        },
+        {
+          "id": "sub2",
+          "title": "Michael Armstrong"
+        },
+        {
+          "id": "sub3",
+          "title": "More Content"
         }
       ],
       "items": [
@@ -166,29 +196,35 @@
           "subcategory": "sub1"
         },
         {
+          "subcategory": "sub1",
           "type": "Video",
-          "video_url": "https://youtu.be/x_fHK3n50j4",
-          "caption": "Evan Honer at The Elm Bozeman",
-          "subcategory": "sub1"
+          "video_url": "https://youtu.be/CbWWuGLa9uk",
+          "caption": "Simple Man Lyric Video"
         },
         {
           "type": "Video",
-          "video_url": "https://vimeo.com/1228412097?share=copy&fl=sv&fe=ci",
+          "video_url": "https://youtu.be/x_fHK3n50j4",
+          "caption": "Evan Honer at The Elm Bozeman",
+          "subcategory": "sub3"
+        },
+        {
+          "type": "Video",
+          "video_url": "https://youtu.be/ancD_9rgUU4",
           "caption": "Willy On The Wire",
           "image": "",
-          "subcategory": "sub1"
+          "subcategory": "sub3"
         },
         {
           "type": "Photo",
           "image": "/images/uploads/aab05315.jpg",
           "caption": "Michael Armstrong - The Brick Breeden Fieldhouse",
-          "subcategory": "sub1"
+          "subcategory": "sub2"
         },
         {
           "type": "Photo",
           "image": "/images/uploads/aab05172.jpg",
           "caption": "Michael Armstrong - The Brick Breeden Fieldhouse",
-          "subcategory": "sub1"
+          "subcategory": "sub2"
         },
         {
           "type": "Photo",
@@ -200,13 +236,13 @@
           "type": "Photo",
           "image": "/images/uploads/aab05034.jpg",
           "caption": "Michael Armstrong - The Brick Breeden Fieldhouse",
-          "subcategory": "sub1"
+          "subcategory": "sub2"
         },
         {
           "type": "Photo",
           "image": "/images/uploads/aab05408-2.jpg",
           "caption": "Michael Armstrong - The Brick Breeden Fieldhouse",
-          "subcategory": "sub1"
+          "subcategory": "sub2"
         },
         {
           "type": "Photo",
@@ -242,37 +278,73 @@
           "type": "Photo",
           "image": "/images/uploads/aab04976.jpg",
           "caption": "Michael Armstrong - The Brick Breeden Fieldhouse",
-          "subcategory": "sub1"
+          "subcategory": "sub2"
         },
         {
           "type": "Photo",
           "image": "/images/uploads/aab05302.jpg",
           "caption": "Michael Armstrong - The Brick Breeden Fieldhouse",
-          "subcategory": "sub1"
+          "subcategory": "sub2"
         },
         {
           "type": "Photo",
           "image": "/images/uploads/aab05056.jpg",
           "caption": "Michael Armstrong - The Brick Breeden Fieldhouse",
-          "subcategory": "sub1"
+          "subcategory": "sub2"
         },
         {
           "type": "Photo",
           "image": "/images/uploads/aab05373.jpg",
           "caption": "Michael Armstrong - The Brick Breeden Fieldhouse",
-          "subcategory": "sub1"
+          "subcategory": "sub2"
         },
         {
           "type": "Photo",
           "image": "/images/uploads/aab05094.jpg",
           "caption": "Michael Armstrong - The Brick Breeden Fieldhouse",
-          "subcategory": "sub1"
+          "subcategory": "sub2"
         },
         {
           "type": "Photo",
           "image": "/images/uploads/aab05120.jpg",
           "caption": "Michael Armstrong - The Brick Breeden Fieldhouse",
-          "subcategory": "sub1"
+          "subcategory": "sub2"
+        },
+        {
+          "subcategory": "sub1",
+          "type": "Photo",
+          "caption": "Rob Wolf Band Alpen Glow 2026",
+          "image": "/images/uploads/aab04536.jpg"
+        },
+        {
+          "subcategory": "sub1",
+          "type": "Photo",
+          "image": "/images/uploads/aab04603.jpg",
+          "caption": "Rob Wolf Band Alpen Glow 2026"
+        },
+        {
+          "subcategory": "sub1",
+          "type": "Photo",
+          "image": "/images/uploads/aab04479.jpg",
+          "caption": "Rob Wolf Band Alpen Glow 2026"
+        },
+        {
+          "subcategory": "sub1",
+          "type": "Photo",
+          "caption": "Rob Wolf Band Alpen Glow 2026",
+          "image": "/images/uploads/aab04599.jpg"
+        },
+        {
+          "subcategory": "sub2",
+          "type": "Photo",
+          "image": "/images/uploads/aab04930-2.jpg",
+          "caption": "Michael Armstrong - The Brick Breeden Fieldhouse"
+        },
+        {
+          "subcategory": "sub2",
+          "type": "Photo",
+          "image": "/images/uploads/aab04978.jpg",
+          "caption": "Michael Armstrong - Brick Breeden Fieldhouse"
         }
       ]
     },
@@ -315,6 +387,6 @@
     }
   },
   "appearance": {
-    "theme": "dark"
+    "theme": "light"
   }
 }
