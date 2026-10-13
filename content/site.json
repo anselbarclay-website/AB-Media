@@ -14,7 +14,7 @@
     "email": "anselabarclay@gmail.com",
     "instagram": "@ansel.barclay",
     "headshot": "/images/uploads/_mg_9244-2.jpg",
-    "bio": "Ansel Barclay is a photographer/ videographer from the icey woods of New Hampshire. A graduate from the School of Film and Photography at Montana State University, he is excited for what the future holds for his creative works. Because of his upbringing in the outdoors participating in activities such as skiing and mountain biking, his love for these hobbies presents him with a perfect subject to drive his passion projects in the outdoors. Through his eye for fashion, he has collaborated on work with brands for promotion and marketing purposes in order to broaden their reach in the apparel space. Still imagery is not where he draws the line however as he is well versed in film as well, documenting major musicians at popular venues as well as holding the role of producer on short films. Stay tuned for new work that Ansel releases in the future.."
+    "bio": "Ansel Barclay is a photographer/ videographer from the icy woods of New Hampshire. Because of his upbringing in the outdoors participating in activities such as skiing and mountain biking, his love for these hobbies presents him with the perfect subject to drive his passion projects. Through his eye for fashion, he has collaborated on work with brands for promotion and marketing purposes in order to broaden their reach in the apparel space. Still imagery is not where he draws the line however as he is well versed in film as well, documenting major musicians at popular venues as well as holding the role of producer on short films. A graduate from the School of Film and Photography at Montana State University, he is excited for what the future holds for his creative works. Stay tuned for new work that Ansel releases in the future.."
   },
   "categories": {
     "fashion": {
@@ -126,10 +126,28 @@
           "subcategory": "sub3"
         },
         {
+          "subcategory": "sub1",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-1_9.jpg",
+          "caption": "NAM3 Brand 25/26 Collection"
+        },
+        {
           "type": "Photo",
           "image": "/images/uploads/barclay_ansel_crit-4_-35-.jpg",
           "caption": "CLUE Jackets",
           "subcategory": "sub4"
+        },
+        {
+          "subcategory": "sub1",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-1_7.jpg",
+          "caption": "NAM3 Brand 25/26 Collection"
+        },
+        {
+          "subcategory": "sub1",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-1_3.jpg",
+          "caption": "NAM3 Brand 25/26 Collection"
         },
         {
           "type": "Photo",
@@ -145,11 +163,87 @@
         },
         {
           "subcategory": "sub1",
-          "type": "Photo"
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-1_11.jpg",
+          "caption": "NAM3 Brand 25/26 Collection"
         },
         {
           "subcategory": "sub1",
-          "type": "Photo"
+          "type": "Photo",
+          "image": "/images/uploads/aab04058.jpg",
+          "caption": "NAM3 Brand Hoodies"
+        },
+        {
+          "subcategory": "sub2",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-1_20.jpg",
+          "caption": "OutaWare Studio Session"
+        },
+        {
+          "subcategory": "sub2",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-1_14.jpg",
+          "caption": "OutaWare Studio Session"
+        },
+        {
+          "subcategory": "sub2",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-2-21.jpg",
+          "caption": "OutaWare On Location"
+        },
+        {
+          "subcategory": "sub2",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-2-24.jpg",
+          "caption": "OutaWare On Location"
+        },
+        {
+          "subcategory": "sub2",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-2-13.jpg",
+          "caption": "OutaWare On Location"
+        },
+        {
+          "subcategory": "sub2",
+          "type": "Photo",
+          "caption": "OutaWare Night Session",
+          "image": "/images/uploads/barclay_ansel_crit-2-52.jpg"
+        },
+        {
+          "subcategory": "sub3",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-4_-35-.jpg",
+          "caption": "CLUE On Location"
+        },
+        {
+          "subcategory": "sub3",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-4_-45-.jpg",
+          "caption": "CLUE On Location"
+        },
+        {
+          "subcategory": "sub3",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-4_-38-.jpg",
+          "caption": "CLUE On Location"
+        },
+        {
+          "subcategory": "sub3",
+          "type": "Photo",
+          "caption": "CLUE Studio Session",
+          "image": "/images/uploads/barclay_ansel_crit-4_-2-.jpg"
+        },
+        {
+          "subcategory": "sub3",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-4_-33-.jpg",
+          "caption": "CLUE On Location"
+        },
+        {
+          "subcategory": "sub3",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-4_-36-.jpg",
+          "caption": "CLUE On Location"
         }
       ]
     },
