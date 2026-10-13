@@ -208,6 +208,42 @@
           "type": "Photo",
           "caption": "OutaWare Night Session",
           "image": "/images/uploads/barclay_ansel_crit-2-52.jpg"
+        },
+        {
+          "subcategory": "sub3",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-4_-35-.jpg",
+          "caption": "CLUE On Location"
+        },
+        {
+          "subcategory": "sub3",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-4_-45-.jpg",
+          "caption": "CLUE On Location"
+        },
+        {
+          "subcategory": "sub3",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-4_-38-.jpg",
+          "caption": "CLUE On Location"
+        },
+        {
+          "subcategory": "sub3",
+          "type": "Photo",
+          "caption": "CLUE Studio Session",
+          "image": "/images/uploads/barclay_ansel_crit-4_-2-.jpg"
+        },
+        {
+          "subcategory": "sub3",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-4_-33-.jpg",
+          "caption": "CLUE On Location"
+        },
+        {
+          "subcategory": "sub3",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-4_-36-.jpg",
+          "caption": "CLUE On Location"
         }
       ]
     },
