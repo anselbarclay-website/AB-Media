@@ -126,10 +126,28 @@
           "subcategory": "sub3"
         },
         {
+          "subcategory": "sub1",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-1_9.jpg",
+          "caption": "NAM3 Brand 25/26 Collection"
+        },
+        {
           "type": "Photo",
           "image": "/images/uploads/barclay_ansel_crit-4_-35-.jpg",
           "caption": "CLUE Jackets",
           "subcategory": "sub4"
+        },
+        {
+          "subcategory": "sub1",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-1_7.jpg",
+          "caption": "NAM3 Brand 25/26 Collection"
+        },
+        {
+          "subcategory": "sub1",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-1_3.jpg",
+          "caption": "NAM3 Brand 25/26 Collection"
         },
         {
           "type": "Photo",
@@ -145,11 +163,51 @@
         },
         {
           "subcategory": "sub1",
-          "type": "Photo"
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-1_11.jpg",
+          "caption": "NAM3 Brand 25/26 Collection"
         },
         {
           "subcategory": "sub1",
-          "type": "Photo"
+          "type": "Photo",
+          "image": "/images/uploads/aab04058.jpg",
+          "caption": "NAM3 Brand Hoodies"
+        },
+        {
+          "subcategory": "sub2",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-1_20.jpg",
+          "caption": "OutaWare Studio Session"
+        },
+        {
+          "subcategory": "sub2",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-1_14.jpg",
+          "caption": "OutaWare Studio Session"
+        },
+        {
+          "subcategory": "sub2",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-2-21.jpg",
+          "caption": "OutaWare On Location"
+        },
+        {
+          "subcategory": "sub2",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-2-24.jpg",
+          "caption": "OutaWare On Location"
+        },
+        {
+          "subcategory": "sub2",
+          "type": "Photo",
+          "image": "/images/uploads/barclay_ansel_crit-2-13.jpg",
+          "caption": "OutaWare On Location"
+        },
+        {
+          "subcategory": "sub2",
+          "type": "Photo",
+          "caption": "OutaWare Night Session",
+          "image": "/images/uploads/barclay_ansel_crit-2-52.jpg"
         }
       ]
     },
