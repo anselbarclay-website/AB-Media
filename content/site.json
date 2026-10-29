@@ -1,7 +1,7 @@
 {
   "hero": {
     "headline": "AB Media",
-    "tagline": "Visual storytelling across fashion, property, music, and commercial work.",
+    "tagline": "Visual storytelling across Fashion, Property, Music, and Commercial Work.",
     "highlight_reel": "https://youtu.be/6GuiNrTrsCw?si=r3ehi0ypiWukn9Pi"
   },
   "covers": {
@@ -13,13 +13,13 @@
   "contact": {
     "email": "anselabarclay@gmail.com",
     "instagram": "@ansel.barclay",
-    "headshot": "/images/uploads/_mg_9244-2.jpg",
-    "bio": "Ansel Barclay is a photographer/ videographer from the icy woods of New Hampshire. Because of his upbringing in the outdoors participating in activities such as skiing and mountain biking, his love for these hobbies presents him with the perfect subject to drive his passion projects. Through his eye for fashion, he has collaborated on work with brands for promotion and marketing purposes in order to broaden their reach in the apparel space. Still imagery is not where he draws the line however as he is well versed in film as well, documenting major musicians at popular venues as well as holding the role of producer on short films. A graduate from the School of Film and Photography at Montana State University, he is excited for what the future holds for his creative works. Stay tuned for new work that Ansel releases in the future.."
+    "headshot": "/images/uploads/_mg_9229-2.jpg",
+    "bio": "Ansel Barclay is a photographer, filmmaker, and visual storyteller born and raised in the rugged woods of New Hampshire. His deep roots in the outdoors, forged through years of skiing and mountain biking, fuel his passion projects, transforming high-adrenaline hobbies into a distinct creative canvas. Beyond the wilderness, Ansel brings a sharp eye for fashion to his commercial work, collaborating with apparel brands to elevate their visual identity and expand their market reach. His expertise extends seamlessly from stills to motion. As a versatile director and producer, Ansel captures the raw energy of major musicians at iconic venues and handles production for compelling short films. A graduate of the School of Film and Photography at Montana State University, Ansel is constantly pushing the boundaries of his craft. Keep an eye out for his latest releases..."
   },
   "categories": {
     "fashion": {
       "title": "Fashion",
-      "caption": "Editorial, campaign, lifestyle, and fashion-focused imagery.",
+      "caption": "Editorial, Campaign, Lifestyle, and Fashion-Focused Imagery.",
       "subcategories": [
         {
           "id": "sub1",
@@ -248,8 +248,8 @@
       ]
     },
     "property": {
-      "title": "Property Content",
-      "caption": "Photo and video content for hotels, rentals, real estate, and hospitality.",
+      "title": "Property",
+      "caption": "Photo and video content for Hotels, Rentals, Real Estate, and Hospitality.",
       "subcategories": [
         {
           "id": "sub1",
@@ -266,8 +266,8 @@
       ]
     },
     "music": {
-      "title": "Music Imagery",
-      "caption": "Concert photography, live performance films, artist visuals, and promotional imagery.",
+      "title": "Music",
+      "caption": "Concert photography, Live performance films, Artist visuals, and Promotional imagery.",
       "subcategories": [
         {
           "id": "sub1",
@@ -444,7 +444,7 @@
     },
     "commercial": {
       "title": "Commercial",
-      "caption": "Brand campaigns, hospitality, product, lifestyle, and commercial storytelling.",
+      "caption": "Brand campaigns, Hospitality, Product, Lifestyle, and Commercial Storytelling.",
       "subcategories": [
         {
           "id": "sub1",
