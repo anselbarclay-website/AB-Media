@@ -262,6 +262,11 @@
           "video_file": "https://youtu.be/L8GZTiaQ5Sk",
           "caption": "Wandering Buffalo Lobby Tour",
           "subcategory": "sub1"
+        },
+        {
+          "subcategory": "sub1",
+          "type": "Photo",
+          "video_file": "https://youtu.be/8g_imONZTnU"
         }
       ]
     },
