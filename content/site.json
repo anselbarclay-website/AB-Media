@@ -265,8 +265,9 @@
         },
         {
           "subcategory": "sub1",
-          "type": "Photo",
-          "video_file": "https://youtu.be/8g_imONZTnU"
+          "type": "Video",
+          "video_file": "https://youtu.be/8g_imONZTnU",
+          "caption": "NH Real Estate"
         }
       ]
     },
