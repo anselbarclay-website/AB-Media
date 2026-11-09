@@ -262,6 +262,12 @@
           "video_file": "https://youtu.be/L8GZTiaQ5Sk",
           "caption": "Wandering Buffalo Lobby Tour",
           "subcategory": "sub1"
+        },
+        {
+          "subcategory": "sub1",
+          "type": "Video",
+          "video_file": "https://youtu.be/8g_imONZTnU",
+          "caption": "NH Real Estate"
         }
       ]
     },
@@ -476,6 +482,12 @@
           "video_url": "https://youtube.com/shorts/iEm9E8EEKNg?feature=share",
           "caption": "The Mercantile at Wandering Buffalo Hotel",
           "subcategory": "sub1"
+        },
+        {
+          "subcategory": "sub1",
+          "type": "Video",
+          "caption": "Karissa Yoga | Wandering Buffalo",
+          "video_url": "https://youtu.be/fsImLfOVGEg?si=o_h4Km_88kTgUJFX"
         }
       ]
     }
