@@ -266,8 +266,9 @@
         {
           "subcategory": "sub1",
           "type": "Video",
-          "video_file": "https://youtu.be/8g_imONZTnU",
-          "caption": "NH Real Estate"
+          "video_file": "",
+          "caption": "NH Real Estate",
+          "video_url": "https://youtu.be/20eGntPMc64"
         }
       ]
     },
@@ -494,13 +495,5 @@
   },
   "appearance": {
     "theme": "light"
-  },
-  "originals_home": {
-    "enabled": true,
-    "heading": "AB MEDIA ORIGINALS",
-    "description": "Independent films and passion-driven projects.",
-    "featured_title": "A Ski Film",
-    "youtube_url": "https://youtu.be/d5InOq0vMQc",
-    "button_text": "Explore Originals"
   }
 }
