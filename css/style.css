@@ -132,3 +132,29 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:35px 4vw;bord
   background: #ffffff;
   color: #000000;
 }
+
+/* Navigation and project inquiry additions */
+.navlinks{overflow:visible!important;max-width:none!important;align-items:center}
+.portfolio-menu{position:relative;z-index:30}
+.portfolio-menu summary{cursor:pointer;list-style:none;user-select:none}
+.portfolio-menu summary::-webkit-details-marker{display:none}
+.portfolio-menu summary span{margin-left:5px}
+.portfolio-menu-items{position:absolute;top:calc(100% + 15px);left:0;min-width:170px;background:var(--bg);border:1px solid var(--line);padding:8px;box-shadow:0 12px 32px #0004;display:grid;gap:0}
+.portfolio-menu-items a{display:block;padding:11px 13px;white-space:nowrap}
+.portfolio-menu-items a:hover{background:var(--panel)}
+.nav-project{border:1px solid currentColor;padding:10px 14px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+.inquiry-section{border-top:1px solid var(--line);scroll-margin-top:90px}
+.about-section{border-top:1px solid var(--line);scroll-margin-top:90px}
+.inquiry-form{max-width:900px;display:grid;gap:22px;margin-top:36px}
+.inquiry-form label{display:grid;gap:9px;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase}
+.inquiry-form input,.inquiry-form select,.inquiry-form textarea{box-sizing:border-box;width:100%;min-width:0;padding:15px 16px;background:var(--panel);color:var(--text);border:1px solid var(--line);font:inherit;font-size:1rem;letter-spacing:normal;text-transform:none;border-radius:0}
+.inquiry-form textarea{resize:vertical}
+.inquiry-form input:focus-visible,.inquiry-form select:focus-visible,.inquiry-form textarea:focus-visible{outline:2px solid var(--text);outline-offset:2px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.inquiry-form .btn{justify-self:start;cursor:pointer;background:transparent;font:inherit}
+.form-note{font-size:.85rem;margin:0}
+.hidden-field{position:absolute;left:-9999px;opacity:0}
+.landing-main{padding-top:80px}.landing-intro{padding-bottom:30px}.landing-intro h1,.thank-you h1{font-size:clamp(3.4rem,9vw,9rem);line-height:.95;letter-spacing:-.06em;margin:20px 0}.landing-intro .bio{max-width:740px}.text-link{display:inline-block;margin-top:12px;border-bottom:1px solid currentColor;padding-bottom:5px}.thank-you{min-height:75vh;padding-top:180px}
+@media(max-width:800px){.nav{gap:15px}.navlinks{gap:12px!important;font-size:.65rem}.nav-project{padding:8px}.portfolio-menu-items{left:auto;right:0}.form-row{grid-template-columns:1fr}.landing-main{padding-top:60px}}
+@media(max-width:420px){.nav{padding:16px 12px}.navlinks{gap:8px!important}.brand{font-size:.85rem}.nav-project{font-size:.6rem}}
