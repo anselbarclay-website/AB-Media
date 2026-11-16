@@ -494,5 +494,13 @@
   },
   "appearance": {
     "theme": "light"
+  },
+  "originals_home": {
+    "enabled": true,
+    "heading": "AB MEDIA ORIGINALS",
+    "description": "Independent films and passion-driven projects.",
+    "featured_title": "A Ski Film",
+    "youtube_url": "https://youtu.be/d5InOq0vMQc",
+    "button_text": "Explore Originals"
   }
 }
