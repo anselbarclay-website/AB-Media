@@ -1,12 +1,19 @@
 {
-  "title": "Trance",
+  "updates": [
+    {
+      "visible": true,
+      "title": "Pre Production",
+      "date": "2026-11-16",
+      "description": "Trance is currently in the pre production phase, organizing schedules for shoot days, creating shot lists and executing budget breakdowns. \n\nCurrently seeking further sponsorship"
+    }
+  ],
   "slug": "trance",
-  "status": "In Development",
-  "year": "2026\u201327",
-  "cover_image": "",
-  "synopsis": "An independent freeride ski film exploring big-mountain skiing and creative expression.",
-  "visible": true,
-  "updates": [],
   "video_url": "",
-  "gallery": []
+  "visible": true,
+  "gallery": [],
+  "status": "In Development",
+  "cover_image": "/images/uploads/trance-pitch-deck-nst.jpg",
+  "synopsis": "Trance pairs high-level big-mountain skiing with an experimental visual identity. Beyond steep terrain and technical lines, the film will capture the travel, friendships, and experiences of a season spent chasing snow and competing in IFSA qualifiers. The mission is to create a visually distinctive film that reflects both the intensity of freeride skiing and the culture surrounding it.\n",
+  "title": "Trance",
+  "year": "2026–27"
 }
