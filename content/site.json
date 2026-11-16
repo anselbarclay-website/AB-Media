@@ -495,5 +495,13 @@
   },
   "appearance": {
     "theme": "light"
+  },
+  "originals_home": {
+    "enabled": true,
+    "heading": "AB Media Originals",
+    "description": "AB Media Originals",
+    "featured_title": "Proper - A Ski Film Featuring Asher Hardy",
+    "youtube_url": "https://youtu.be/d5InOq0vMQc?si=iLCPP80bO7ahml8i",
+    "button_text": "Explore Originals"
   }
 }
