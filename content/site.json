@@ -1,4 +1,7 @@
 {
+  "appearance": {
+    "theme": "light"
+  },
   "hero": {
     "headline": "AB Media",
     "tagline": "Visual storytelling across Fashion, Property, Music, and Commercial Work.",
@@ -9,6 +12,14 @@
     "property": "/images/uploads/aab04272.jpg",
     "music": "/images/uploads/aab04413.jpg",
     "commercial": "/images/uploads/assn2_barclay_phot352_2.jpg"
+  },
+  "originals_home": {
+    "enabled": true,
+    "heading": "AB Media Originals",
+    "description": "Independent passion driven projects by AB Media Co",
+    "featured_title": "Proper - A Ski Film Featuring Asher Hardy",
+    "youtube_url": "https://youtu.be/d5InOq0vMQc?si=iLCPP80bO7ahml8i",
+    "button_text": "Explore Originals"
   },
   "contact": {
     "email": "anselabarclay@gmail.com",
@@ -492,16 +503,5 @@
         }
       ]
     }
-  },
-  "appearance": {
-    "theme": "light"
-  },
-  "originals_home": {
-    "enabled": true,
-    "heading": "AB Media Originals",
-    "description": "Spring 2026",
-    "featured_title": "Proper - A Ski Film Featuring Asher Hardy",
-    "youtube_url": "https://youtu.be/d5InOq0vMQc?si=iLCPP80bO7ahml8i",
-    "button_text": "Explore Originals"
   }
 }
